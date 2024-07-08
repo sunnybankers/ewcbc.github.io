@@ -1,0 +1,50 @@
+﻿#accordion {
+	list-style:  none;
+	padding:  5px;
+	width:  95%; /* may want to reduce this for tablets */
+}
+
+#accordion div {
+	display: block;
+	background-color: #607656;
+	font-weight: bold;
+	margin: 1px;
+	cursor: pointer;
+	padding: 5px 5px 5px 7px;
+	list-style: none;
+	webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#accordion div:hover {
+	background-color: #BCAE92;
+}
+
+#accordion ul {
+	list-style:  none;
+	padding:  3px;
+	display:none;
+}
+
+#accordion ul li {
+	font-weight: normal;
+	cursor: auto;
+	background-color: #BCAE92;
+	padding: 3px;
+	margin: 2px;
+	webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#accordion ul li:hover {
+	background-color: #607656;
+}
+#accordion li a {
+	text-decoration: none;
+	display: block;
+	color: #FFFFFF;
+}
+#accordion a:hover {
+	text-decoration:  none;
+}
+
