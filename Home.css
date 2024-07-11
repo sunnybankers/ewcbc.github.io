@@ -46,13 +46,12 @@
 }
 
 .u-section-2 .u-container-layout-1 {
-  padding: 10px 10px 10px 0;
+  padding: 0 10px 0 0;
 }
 
 .u-section-2 .u-text-1 {
   font-size: 1.5rem;
-  font-weight: 700;
-  margin: 0 auto 0 5px;
+  margin: 0 auto 0 8px;
 }
 
 .u-section-2 .u-image-1 {
@@ -64,6 +63,10 @@
 @media (max-width: 1199px) {
   .u-section-2 .u-repeater-1 {
     grid-template-columns: 100%;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-weight: 400;
   }
 }
 
