@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: https://www.ewcbc.co.uk/sitemap.html
+Sitemap: https://www.ewcbc.co.uk/sitemap.xml
